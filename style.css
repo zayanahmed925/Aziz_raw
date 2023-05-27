@@ -10,7 +10,7 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 60% 40%;
 }
 
 .header-group {
