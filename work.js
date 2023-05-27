@@ -1,5 +1,4 @@
 
-
 let textOne = "Need of land 2,43,000 square fit for gaushala, Need a fund raiser of amount 54 Lakh "
 let textTwo = "This Cows First Aid Kit Contains Melonex Plus 100ml Injection Rs.175, Amoxirum Forte Injection 300mg Pack of 3 Rs.192,Vitamin 100 ML Tribivet Injection Rs.235,Lorexane Cream 100Gm Rs.93 Total Kit Price - 695/- "
 let textThree = "Feed The Needy With Food Seva, Fruit Seva, Water Seva, Parikrama Marg Seva, Radha Kund Seva, Radha Rani Seva"
@@ -66,7 +65,7 @@ document.getElementById("card-seeMore-three").addEventListener('click', function
     }
 })
 // 3rd number card end
-// 3rd number card start
+// 4th number card start
 const modifiedTextFour = textFour.slice(0, 54)
 document.getElementById("textFour").innerText = modifiedTextFour
 let isReadMoreFour = true;
@@ -85,7 +84,7 @@ document.getElementById("card-seeMore-four").addEventListener('click', function 
         document.getElementById("textFour").innerText = modifiedTextFour;
     }
 })
-// 3rd number card end
+// 4th number card end
 
 
 
