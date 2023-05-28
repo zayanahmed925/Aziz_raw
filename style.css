@@ -250,6 +250,13 @@ h5 {
     color: rgb(35, 25, 180);
 }
 
+.sidebar-social-btn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 0px 2px;
+}
+
 .side-card-lower {
     max-width: auto;
     margin-top: 12px;
