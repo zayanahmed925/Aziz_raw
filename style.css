@@ -113,10 +113,6 @@ h5 {
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 80px;
-    /* position: fixed; */
-    top: 0;
-    z-index: 100;
-
 }
 
 .logo-part-group {
@@ -392,6 +388,8 @@ h5 {
         display: none;
     }
 
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1195px) {
@@ -412,6 +410,11 @@ h5 {
 
     .logo-part {
         margin: 0px;
+        /* position: fixed;
+        top: 10px;
+        left: 900px;
+        width: 510px;
+        height: 618px; */
     }
 
     .main div:nth-of-type(1) {
@@ -427,4 +430,25 @@ h5 {
         display: none;
         margin: 20px;
     }
+
+    .logo-part {
+        margin: 0px;
+        /* position: fixed;
+        top: 10px;
+        left: 900px;
+        width: 510px;
+        height: 618px; */
+    }
+
+
+}
+
+@media (min-width:1196px) {
+    .side-bar-section {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 80px;
+    }
+
+
 }
