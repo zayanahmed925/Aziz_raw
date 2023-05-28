@@ -294,7 +294,7 @@ h5 {
     .main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-
+        margin: 12px;
     }
 
     .main div:nth-of-type(1) {
@@ -347,6 +347,7 @@ h5 {
 
     .last-part-phn {
         display: block;
+        margin: 12px;
     }
 
     .last-part-pc {
@@ -354,7 +355,7 @@ h5 {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:991px) {
     .cards {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -366,7 +367,7 @@ h5 {
     .main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-
+        margin: 16px;
     }
 
     .main div:nth-of-type(1) {
@@ -375,10 +376,46 @@ h5 {
 
     .last-part-phn {
         display: block;
+        margin: 16px;
     }
 
     .last-part-pc {
         display: none;
     }
 
+}
+
+@media (min-width: 992px) and (max-width: 1195px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+
+    }
+
+    .logo-part {
+        margin: 0px;
+    }
+
+    .main div:nth-of-type(1) {
+        order: 2;
+    }
+
+    .last-part-phn {
+        display: block;
+        margin: 20px;
+    }
+
+    .last-part-pc {
+        display: none;
+        margin: 20px;
+    }
 }
